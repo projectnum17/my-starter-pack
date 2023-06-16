@@ -1,0 +1,49 @@
+.event .section-title {
+	margin-block-end: 40px;
+}
+
+.event-card {
+	position: relative;
+	overflow: hidden;
+}
+
+.event-card .card-content {
+	background-image: $gradient-1;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	padding: 35px 35px 25px;
+}
+
+.event-card .publish-date {
+	position: absolute;
+	top: 30px;
+	left: 25px;
+	padding: 5px 10px;
+	color: $gold-crayola;
+	background-color: $black;
+	font-weight: $weight-bold;
+	letter-spacing: $letterSpacing-1;
+	line-height: 14px;
+}
+
+.event-card .card-subtitle {
+	color: $gold-crayola;
+	text-transform: uppercase;
+	font-weight: $weight-bold;
+	letter-spacing: $letterSpacing-2;
+	margin-block-end: 5px;
+}
+
+.event-card .card-banner .img-cover {
+	transition: $transition-2;
+}
+
+.event-card:is(:hover, :focus-within) .img-cover {
+	transform: scale(1.05);
+}
+
+.event .btn {
+	margin-inline: auto;
+	margin-block-start: 40px;
+}
